@@ -176,7 +176,12 @@
             <section id="contact">
                 <h1 class="ms-lg-3 text-center text-md-start py-5">Contact Me and Download my Resume!</h1>
                 <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
-                    <a href="resume/Mahsa Vahidinasa-IT (1).pdf" target="_blank" type="application/pdf">
+                    <a href="resume/Mahsa Vahidinasa-IT (1).pdf" target="_blank" type="application/pdf"
+                        onclick="gtag('event', 'resume_click', {
+                        event_category: 'Resume',
+                        event_label: 'Resume PDF'
+                    });">
+
                         <img src="images/pdf.png" alt="Resume" class="img-fluid">
                     </a>
 
